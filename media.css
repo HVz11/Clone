@@ -1,0 +1,76 @@
+/* Custom media queries sizes */
+/* media size (1) 1178px */
+/* media size (2) 800px */
+/* media size for iPhone 6/7/8 (3) 800px */
+@media screen and (max-width: 320px) {
+    header {
+      height: 40px;
+      padding: 30px 20px;
+    }
+    header nav,
+    header .search {
+      display: none;
+    }
+  
+    header .logo {
+      display: flex;
+      height: 25px;
+      align-items: center;
+    }
+  
+    header .logo img {
+      width: 100%;
+      /* border: 2px solid white; */
+      height: 30px;
+    }
+  
+    .banner .banner-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      overflow: hidden;
+    }
+  
+    .banner-container .container-hd {
+      display: flex;
+      background-color: black;
+      color: white;
+      padding: 0 30px;
+      /* font-size: 30px; */
+      margin-bottom: 40px;
+    }
+  
+    .container-hd h3 {
+      font-size: 14px;
+      padding: 0;
+    }
+  
+    .banner-container .container-links {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 180px;
+      width: 100%;
+    }
+  
+    .container-links a {
+      border-bottom: var(--border-btm);
+      padding-bottom: 10px;
+      width: max-content;
+      color: black;
+      font-size: 14px;
+    }
+  
+    .banner,
+    .content {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  /* media size for Moto G4 (4) 800px */
+  /* media size for Galaxy S III (5) 360px + 320px */
+  /* media size for iPhone 6/7/8 plus 6) 414px */
+  /* media size for iPad pro (7) 1024px */
